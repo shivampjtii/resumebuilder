@@ -15,7 +15,7 @@ export interface IWorkExperience {
     position: string;
     startDate: string;
     endDate: string;
-    description: string
+    description: string;
 }
 
 export interface IProjects {
@@ -44,6 +44,6 @@ export interface IResume {
     skills: string[];
     education: IEducation[];
     certifications?: string[];
-    createdAt?: Date
-    updatedAt?: Date
+    createdAt?: Date;
+    updatedAt?: Date;
 }
